@@ -20,7 +20,7 @@ const UserPlaces = () => {
         );
         setLoadedPlaces(responseData.places);
         setRequestFromCreator(responseData.isCreator);
-        console.log(requestFromCreator);
+        // console.log(requestFromCreator);
       } catch (err) {}
     };
     fetchPlaces();

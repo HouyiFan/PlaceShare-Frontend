@@ -24,7 +24,7 @@ export const useAuth = () => {
   }, []);
 
   const logout = useCallback(() => {
-    console.log("I log out");
+    // console.log("I log out");
     setToken(null);
     setTokenExpirationDate(null);
     setUserId(null);

@@ -22,7 +22,7 @@ const ImageUpload = props => {
   }, [file]);
 
   const pickedHandler = event => {
-    console.log(event.target);
+    // console.log(event.target);
     let pickedFile;
     // the reason for using "fileIsValid" is because setIsValid() won't update "isValid" immediately
     let fileIsValid = isValid;
